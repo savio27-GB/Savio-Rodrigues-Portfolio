@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Savio Shawn Rodrigues</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Savio Shawn Rodrigues</h1>
+        <p>Aerospace Engineer | Aviation Expert | Customer Service Professional</p>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>With a background in Aerospace Engineering and over three years of experience in aviation, I bring expertise in technical service and a dedication to maintaining compliance and excellence. Alongside my technical skills, I have strong customer service experience from working in retail, showing my versatility and dedication to helping others. I am currently seeking new opportunities to contribute my skills and knowledge.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="project1.jpg" alt="Project 1">
+            <img src="project2.jpg" alt="Project 2">
+            <img src="project3.jpg" alt="Project 3">
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>My Journey in Aerospace Engineering</h3>
+            <p>A brief story about how I started in aerospace engineering...</p>
+            <a href="#">Read more</a>
+        </article>
+        <article>
+            <h3>Lessons from Aviation Maintenance</h3>
+            <p>Sharing some key insights from my experience in aviation maintenance...</p>
+            <a href="#">Read more</a>
+        </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you’re interested in connecting or discussing job opportunities, feel free to reach out.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+</body>
+</html>
