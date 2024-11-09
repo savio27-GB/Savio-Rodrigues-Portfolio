@@ -90,12 +90,12 @@ button:hover {
 /* Services Section */
 #services {
     padding: 20px;
-    background-color: #f9f9f9; /* Light background color for contrast */
+    background-color: #f9f9f9;
     text-align: center;
 }
 
 #services h2 {
-    color: #4CAF50; /* Matches the header color */
+    color: #4CAF50;
     margin-bottom: 20px;
 }
 
@@ -105,7 +105,7 @@ button:hover {
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #fff; /* White background for each service item */
+    background-color: #fff;
     text-align: left;
 }
 
@@ -120,24 +120,14 @@ button:hover {
     line-height: 1.5;
 }
 
-<footer>
-    <p>&copy; 2024 Your Name</p>
-    <p>Connect with me on:
-        <a href="https://www.linkedin.com/in/savio-shawn-rodrigues-b67071193/" target="_blank" aria-label="LinkedIn Profile">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 20px; height: 20px;">
-        </a>
-    </p>
-</footer>
-
-/* LinkedIn Icon */
-header nav a img, footer a img {
+/* Footer LinkedIn Icon */
+footer a img {
     width: 20px;
     height: 20px;
     margin-left: 10px;
     vertical-align: middle;
 }
 
-header nav a img:hover, footer a img:hover {
+footer a img:hover {
     opacity: 0.8; /* Add a hover effect */
 }
-
