@@ -64,7 +64,8 @@
      <!-- Gallery Section -->
     <section id="gallery">
         <h2>Gallery</h2>
-        <div class="gallery-grid">
+        <button onclick="toggleGallery()">Show Gallery</button> <!-- Button to show/hide gallery -->
+        <div class="gallery-grid" id="galleryContent" style="display: none;"> <!-- Gallery starts hidden -->
             <img src="project1.jpg" alt="Project 1">
             <img src="project2.jpg" alt="Project 2">
             <img src="project3.jpg" alt="Project 3">
@@ -115,6 +116,16 @@
             </a>
         </p>
     </footer>
+<script>
+function toggleGallery() {
+    const gallery = document.getElementById("galleryContent"); // Find the gallery
+    if (gallery.style.display === "none") {
+        gallery.style.display = "flex"; // Show the gallery if it’s hidden
+    } else {
+        gallery.style.display = "none"; // Hide the gallery if it’s visible
+    }
+}
+</script>
 
 </body>
 </html>
