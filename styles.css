@@ -131,3 +131,32 @@ footer a img {
 footer a img:hover {
     opacity: 0.8; /* Add a hover effect */
 }
+/* Style for the Show Gallery button */
+#gallery button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#gallery button:hover {
+    background-color: #45a049;
+}
+
+/* Gallery images styling */
+.gallery-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the images */
+}
+
+.gallery-grid img {
+    width: 150px; /* Set a fixed width for each image */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow around the images */
+}
