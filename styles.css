@@ -128,3 +128,16 @@ button:hover {
         </a>
     </p>
 </footer>
+
+/* LinkedIn Icon */
+header nav a img, footer a img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+header nav a img:hover, footer a img:hover {
+    opacity: 0.8; /* Add a hover effect */
+}
+
