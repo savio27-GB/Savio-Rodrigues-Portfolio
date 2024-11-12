@@ -160,3 +160,27 @@ footer a img:hover {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow around the images */
 }
+.aircraft-animation {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust height based on your preference */
+    overflow: hidden;
+}
+
+.aircraft {
+    position: absolute;
+    width: 100px; /* Adjust the size of the aircraft */
+    animation: flyAcross 10s linear infinite; /* Animation name, duration, and repeat */
+}
+
+@keyframes flyAcross {
+    0% {
+        left: -100px; /* Start outside the screen on the left */
+        top: 50px; /* Position vertically */
+    }
+    100% {
+        left: 100vw; /* Move to the right end of the screen */
+        top: 50px;
+    }
+}
+
